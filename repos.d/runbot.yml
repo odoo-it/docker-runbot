@@ -1,0 +1,6 @@
+runbot:
+  remotes:
+    origin: https://github.com/odoo/runbot.git
+  target: origin $ODOO_VERSION
+  merges:
+    - origin $ODOO_VERSION
